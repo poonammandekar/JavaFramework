@@ -3,6 +3,7 @@ package com.iris22a;
 import org.testng.annotations.Test;
 
 import com.iris22a.config.TestBase;
+import com.iris22a.config.TestNGBase;
 import com.iris22a.keywords.UIkeyword;
 import com.iris22a.pages.HomePage;
 import com.iris22a.pages.MenTshirtPage;
@@ -10,7 +11,7 @@ import com.iris22a.util.Environment;
 import com.iris22a.util.WaitFor;
 
 
-public class MensTshirt  {
+public class MensTshirt extends TestNGBase {
 		// TODO Auto-generated method stub
 	UIkeyword ui=new UIkeyword();
 	WaitFor wait=new WaitFor();	
