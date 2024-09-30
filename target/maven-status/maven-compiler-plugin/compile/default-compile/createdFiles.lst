@@ -1,4 +1,6 @@
+com\iris22a\stepdefinition\Parameterisation.class
 com\iris22a\util\Environment.class
+com\iris22a\config\TestNGBase.class
 com\iris22a\config\TestBase.class
 com\iris22a\pages\MenTshirtPage.class
 com\iris22a\util\PropUtil.class

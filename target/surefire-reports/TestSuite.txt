@@ -1,40 +1,69 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 37, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 71.501 s <<< FAILURE! - in TestSuite
-verifyCategoryListForTopWears(com.iris22a.ProductTest)  Time elapsed: 0.018 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
-	at com.iris22a.ProductTest.verifyCategoryListForTopWears(ProductTest.java:50)
+Tests run: 37, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 60.604 s <<< FAILURE! - in TestSuite
+verifyItemCountOfCasualShirts(com.iris22a.ProductTest)  Time elapsed: 2.923 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [188a275cc0e7d37df7e869dadcb27c0c, clickElement {id=f.19A719DCDD1F2EA0A69EE9EA969F6678.d.51966B940D8930CED4B4EF362D323907.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52818/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (188a275cc0e7d37df7e869dadcb27c0c)] -> xpath: (//li[@class="desktop-oddColumnContent"])[1]/descendant::a[contains(text(),"Casual")]]
+Session ID: 188a275cc0e7d37df7e869dadcb27c0c
+	at com.iris22a.ProductTest.verifyItemCountOfCasualShirts(ProductTest.java:70)
 
-verifyItemCountOfCasualShirts(com.iris22a.ProductTest)  Time elapsed: 0.003 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
-	at com.iris22a.ProductTest.verifyItemCountOfCasualShirts(ProductTest.java:66)
+verifySearchResultForPoloMen(com.iris22a.ProductTest)  Time elapsed: 4.343 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
+	at com.iris22a.ProductTest.verifySearchResultForPoloMen(ProductTest.java:34)
 
-verifySearchResultForPoloMen(com.iris22a.ProductTest)  Time elapsed: 0.004 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
-	at com.iris22a.ProductTest.verifySearchResultForPoloMen(ProductTest.java:25)
+runScenario(com.runner.RunnerTest)  Time elapsed: 6.592 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 
-runScenario(com.runner.RunnerTest)  Time elapsed: 11.917 s  <<< FAILURE!
+runScenario(com.runner.RunnerTest)  Time elapsed: 0.469 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 5.392 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 0.216 s  <<< FAILURE!
 java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
 
-runScenario(com.runner.RunnerTest)  Time elapsed: 3.066 s  <<< FAILURE!
-java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+runScenario(com.runner.RunnerTest)  Time elapsed: 4.889 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18f5ec4e1d5a2a7830b51270bbdf7c90, clickElement {id=f.8DC0F56DF8AFEB256F3B8D81759E54BE.d.ADE6404E3750F51B30C8908005072DD3.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53594/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (18f5ec4e1d5a2a7830b51270bbdf7c90)] -> xpath: //a[@href="/men-tshirts"]]
+Session ID: 18f5ec4e1d5a2a7830b51270bbdf7c90
 
-runScenario(com.runner.RunnerTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+runScenario(com.runner.RunnerTest)  Time elapsed: 0.386 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 
-runScenario(com.runner.RunnerTest)  Time elapsed: 0.267 s  <<< FAILURE!
+runScenario(com.runner.RunnerTest)  Time elapsed: 0.555 s  <<< FAILURE!
 java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
 
-runScenario(com.runner.RunnerTest)  Time elapsed: 6.834 s  <<< FAILURE!
-java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+runScenario(com.runner.RunnerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 
-runScenario(com.runner.RunnerTest)  Time elapsed: 0.184 s  <<< FAILURE!
-java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+runScenario(com.runner.RunnerTest)  Time elapsed: 2.988 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 
-runScenario(com.runner.RunnerTest)  Time elapsed: 10.674 s  <<< FAILURE!
-java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
-
-runScenario(com.runner.RunnerTest)  Time elapsed: 29.212 s  <<< FAILURE!
-java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
+runScenario(com.runner.RunnerTest)  Time elapsed: 3.563 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3dab3fd4f370835a8b3ed8a0ecf2a276, clickElement {id=f.EE101BCD67635B7E8AFC5590688EEB5F.d.57B1A3B8CEF7F6847D9AB2C16D7C2DB2.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54027/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3dab3fd4f370835a8b3ed8a0ecf2a276)] -> xpath: //a[@href="/men-tshirts"]]
+Session ID: 3dab3fd4f370835a8b3ed8a0ecf2a276
 

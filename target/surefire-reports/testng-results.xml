@@ -1,57 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="37" passed="26" failed="11" skipped="0">
+<testng-results ignored="0" total="37" passed="25" failed="12" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-30T21:59:21 IST" name="Surefire suite" finished-at="2024-09-30T22:00:32 IST" duration-ms="70269">
+  <suite started-at="2024-10-01T01:09:57 IST" name="Surefire suite" finished-at="2024-10-01T01:10:57 IST" duration-ms="59897">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-09-30T21:59:21 IST" name="Surefire test" finished-at="2024-09-30T22:00:32 IST" duration-ms="70269">
+    <test started-at="2024-10-01T01:09:57 IST" name="Surefire test" finished-at="2024-10-01T01:10:57 IST" duration-ms="59897">
       <class name="com.runner.RunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:22 IST" name="setUpClass" finished-at="2024-09-30T21:59:22 IST" duration-ms="597" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:20 IST" name="setUpClass" finished-at="2024-10-01T01:10:20 IST" duration-ms="252" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6d167f58]]>
+                <![CDATA[org.testng.TestRunner@3a8cea24]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:37 IST" duration-ms="14984" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify search result for polo men."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["This file contains the test cases of products."]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
-at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:7)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:37 IST" duration-ms="14999" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:27 IST" duration-ms="7101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +37,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:37 IST" duration-ms="14999" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:49 IST" duration-ms="29468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +53,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:34 IST" duration-ms="11909" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:27 IST" duration-ms="6591" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -98,10 +68,10 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Product title doesn't contain polo:  expected [true] but found [false]]]>
+              <![CDATA[Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
@@ -113,7 +83,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:47 IST" duration-ms="12733" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:28 IST" duration-ms="7568" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -128,10 +98,40 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]]]>
+              <![CDATA[Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:33 IST" duration-ms="6365" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify search result for polo men."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This file contains the test cases of products."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
@@ -143,7 +143,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:47 IST" duration-ms="9667" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:34 IST" duration-ms="6995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,23 +159,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:47 IST" duration-ms="9651" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify if search by popularity yeilds proper result"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["This file contains the test cases of products."]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:49 IST" duration-ms="11731" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:34 IST" duration-ms="6741" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -205,7 +189,23 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:49 IST" duration-ms="1813" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:39 IST" duration-ms="6325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if search by popularity yeilds proper result"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This file contains the test cases of products."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:35 IST" duration-ms="1043" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:48 IST" duration-ms="1499" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:35 IST" duration-ms="1061" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,7 +237,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:49 IST" duration-ms="1781" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:36 IST" duration-ms="1311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,7 +253,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:51 IST" duration-ms="2575" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:36 IST" duration-ms="1138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -269,7 +269,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:51 IST" duration-ms="2277" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:38 IST" duration-ms="1381" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -285,7 +285,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:51 IST" duration-ms="2167" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:38 IST" duration-ms="1284" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,7 +301,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:51 IST" duration-ms="1759" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:39 IST" duration-ms="1157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -317,7 +317,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T21:59:53 IST" duration-ms="2718" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:39 IST" duration-ms="1180" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -333,7 +333,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:00 IST" duration-ms="9411" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:45 IST" duration-ms="5610" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -348,10 +348,10 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]]]>
+              <![CDATA[Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
@@ -363,7 +363,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:02 IST" duration-ms="11313" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:44 IST" duration-ms="5160" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -376,56 +376,55 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:00 IST" duration-ms="9501" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify search result for polo men."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["This file contains the test cases of products."]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18f5ec4e1d5a2a7830b51270bbdf7c90, clickElement {id=f.8DC0F56DF8AFEB256F3B8D81759E54BE.d.ADE6404E3750F51B30C8908005072DD3.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53594/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (18f5ec4e1d5a2a7830b51270bbdf7c90)] -> xpath: //a[@href="/men-tshirts"]]
+Session ID: 18f5ec4e1d5a2a7830b51270bbdf7c90]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
-at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:18)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18f5ec4e1d5a2a7830b51270bbdf7c90, clickElement {id=f.8DC0F56DF8AFEB256F3B8D81759E54BE.d.ADE6404E3750F51B30C8908005072DD3.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53594}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53594/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (18f5ec4e1d5a2a7830b51270bbdf7c90)] -> xpath: //a[@href="/men-tshirts"]]
+Session ID: 18f5ec4e1d5a2a7830b51270bbdf7c90
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at com.iris22a.keywords.UIkeyword.click(UIkeyword.java:180)
+at com.iris22a.pages.HomePage.clickOnMenTshirt(HomePage.java:57)
+at com.iris22a.stepdefinition.ProductsSteps.clickOnMenTshiert(ProductsSteps.java:63)
+at ✽.user click on mens T-shirt(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:12)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T21:59:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:03 IST" duration-ms="9100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify if search by popularity yeilds proper result"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["This file contains the test cases of products."]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T22:00:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:32 IST" duration-ms="31477" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:45 IST" duration-ms="5829" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -448,14 +447,14 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
-at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:30)
+at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:18)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T22:00:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:09 IST" duration-ms="8687" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:53 IST" duration-ms="8784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -471,7 +470,7 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T22:00:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:13 IST" duration-ms="10956" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:53 IST" duration-ms="8413" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -486,22 +485,22 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]]]>
+              <![CDATA[Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
-at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:40)
+at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:30)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T22:00:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-30T22:00:13 IST" duration-ms="10192" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:53 IST" duration-ms="7898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -517,107 +516,280 @@ at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-wor
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.RunnerTest@6ca8564a]" started-at="2024-09-30T22:00:32 IST" name="tearDownClass" finished-at="2024-09-30T22:00:32 IST" duration-ms="1" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:56 IST" duration-ms="6485" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify search result for polo men."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This file contains the test cases of products."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo: Super Combed Cotton T-Shirt expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:40)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-01T01:10:57 IST" duration-ms="3557" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if search by popularity yeilds proper result"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This file contains the test cases of products."]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3dab3fd4f370835a8b3ed8a0ecf2a276, clickElement {id=f.EE101BCD67635B7E8AFC5590688EEB5F.d.57B1A3B8CEF7F6847D9AB2C16D7C2DB2.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54027/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3dab3fd4f370835a8b3ed8a0ecf2a276)] -> xpath: //a[@href="/men-tshirts"]]
+Session ID: 3dab3fd4f370835a8b3ed8a0ecf2a276]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3dab3fd4f370835a8b3ed8a0ecf2a276, clickElement {id=f.EE101BCD67635B7E8AFC5590688EEB5F.d.57B1A3B8CEF7F6847D9AB2C16D7C2DB2.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54027/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3dab3fd4f370835a8b3ed8a0ecf2a276)] -> xpath: //a[@href="/men-tshirts"]]
+Session ID: 3dab3fd4f370835a8b3ed8a0ecf2a276
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at com.iris22a.keywords.UIkeyword.click(UIkeyword.java:180)
+at com.iris22a.pages.HomePage.clickOnMenTshirt(HomePage.java:57)
+at com.iris22a.stepdefinition.ProductsSteps.clickOnMenTshiert(ProductsSteps.java:63)
+at ✽.user click on mens T-shirt(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:45)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.RunnerTest@6221a451]" started-at="2024-10-01T01:10:57 IST" name="tearDownClass" finished-at="2024-10-01T01:10:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.runner.RunnerTest -->
       <class name="com.iris22a.ProductTest">
-        <test-method signature="m10()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m10" finished-at="2024-09-30T21:59:22 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:09:57 IST" name="setUP" finished-at="2024-10-01T01:09:58 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m10()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:09:58 IST" name="m10" finished-at="2024-10-01T01:09:58 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m10 -->
-        <test-method signature="m11()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m11" finished-at="2024-09-30T21:59:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:09:58 IST" name="teardown" finished-at="2024-10-01T01:09:58 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:09:58 IST" name="setUP" finished-at="2024-10-01T01:09:59 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m11()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:09:59 IST" name="m11" finished-at="2024-10-01T01:09:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m11 -->
-        <test-method signature="m12()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m12" finished-at="2024-09-30T21:59:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:09:59 IST" name="teardown" finished-at="2024-10-01T01:09:59 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:09:59 IST" name="setUP" finished-at="2024-10-01T01:10:00 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m12()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:00 IST" name="m12" finished-at="2024-10-01T01:10:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m12 -->
-        <test-method signature="m4()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m4" finished-at="2024-09-30T21:59:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:00 IST" name="teardown" finished-at="2024-10-01T01:10:00 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m4 -->
-        <test-method signature="m3()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m3" finished-at="2024-09-30T21:59:22 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:00 IST" name="setUP" finished-at="2024-10-01T01:10:00 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m3()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:00 IST" name="m3" finished-at="2024-10-01T01:10:00 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method signature="m5()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m5" finished-at="2024-09-30T21:59:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:00 IST" name="teardown" finished-at="2024-10-01T01:10:01 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:01 IST" name="setUP" finished-at="2024-10-01T01:10:01 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m4()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:01 IST" name="m4" finished-at="2024-10-01T01:10:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:01 IST" name="teardown" finished-at="2024-10-01T01:10:01 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:01 IST" name="setUP" finished-at="2024-10-01T01:10:02 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m5()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:02 IST" name="m5" finished-at="2024-10-01T01:10:02 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m5 -->
-        <test-method signature="m6()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m6" finished-at="2024-09-30T21:59:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:02 IST" name="teardown" finished-at="2024-10-01T01:10:02 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:02 IST" name="setUP" finished-at="2024-10-01T01:10:03 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m6()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:03 IST" name="m6" finished-at="2024-10-01T01:10:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m6 -->
-        <test-method signature="m7()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m7" finished-at="2024-09-30T21:59:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:03 IST" name="teardown" finished-at="2024-10-01T01:10:03 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:03 IST" name="setUP" finished-at="2024-10-01T01:10:03 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m7()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:03 IST" name="m7" finished-at="2024-10-01T01:10:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m7 -->
-        <test-method signature="m8()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m8" finished-at="2024-09-30T21:59:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:03 IST" name="teardown" finished-at="2024-10-01T01:10:04 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:04 IST" name="setUP" finished-at="2024-10-01T01:10:04 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m8()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:04 IST" name="m8" finished-at="2024-10-01T01:10:04 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m8 -->
-        <test-method signature="m9()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="m9" finished-at="2024-09-30T21:59:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:04 IST" name="teardown" finished-at="2024-10-01T01:10:04 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:04 IST" name="setUP" finished-at="2024-10-01T01:10:05 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="m9()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:05 IST" name="m9" finished-at="2024-10-01T01:10:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m9 -->
-        <test-method signature="verifyCategoryListForTopWears()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="verifyCategoryListForTopWears" finished-at="2024-09-30T21:59:22 IST" duration-ms="14" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
-at com.iris22a.keywords.UIkeyword.launchUrl(UIkeyword.java:45)
-at com.iris22a.ProductTest.verifyCategoryListForTopWears(ProductTest.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:05 IST" name="teardown" finished-at="2024-10-01T01:10:05 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:05 IST" name="setUP" finished-at="2024-10-01T01:10:06 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifyCategoryListForTopWears()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:06 IST" name="verifyCategoryListForTopWears" finished-at="2024-10-01T01:10:10 IST" duration-ms="4326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCategoryListForTopWears -->
-        <test-method signature="verifyItemCountOfCasualShirts()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="verifyItemCountOfCasualShirts" finished-at="2024-09-30T21:59:22 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:10 IST" name="teardown" finished-at="2024-10-01T01:10:11 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:11 IST" name="setUP" finished-at="2024-10-01T01:10:11 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifyItemCountOfCasualShirts()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:11 IST" name="verifyItemCountOfCasualShirts" finished-at="2024-10-01T01:10:14 IST" duration-ms="2915" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null]]>
+              <![CDATA[element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [188a275cc0e7d37df7e869dadcb27c0c, clickElement {id=f.19A719DCDD1F2EA0A69EE9EA969F6678.d.51966B940D8930CED4B4EF362D323907.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52818/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (188a275cc0e7d37df7e869dadcb27c0c)] -> xpath: (//li[@class="desktop-oddColumnContent"])[1]/descendant::a[contains(text(),"Casual")]]
+Session ID: 188a275cc0e7d37df7e869dadcb27c0c]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
-at com.iris22a.keywords.UIkeyword.launchUrl(UIkeyword.java:45)
-at com.iris22a.ProductTest.verifyItemCountOfCasualShirts(ProductTest.java:66)
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [188a275cc0e7d37df7e869dadcb27c0c, clickElement {id=f.19A719DCDD1F2EA0A69EE9EA969F6678.d.51966B940D8930CED4B4EF362D323907.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52818/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (188a275cc0e7d37df7e869dadcb27c0c)] -> xpath: (//li[@class="desktop-oddColumnContent"])[1]/descendant::a[contains(text(),"Casual")]]
+Session ID: 188a275cc0e7d37df7e869dadcb27c0c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at com.iris22a.pages.HomePage.clickOnCasualShirts(HomePage.java:61)
+at com.iris22a.ProductTest.verifyItemCountOfCasualShirts(ProductTest.java:70)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -651,19 +823,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemCountOfCasualShirts -->
-        <test-method signature="verifySearchResultForPoloMen()[pri:0, instance:com.iris22a.ProductTest@3d680b5a]" started-at="2024-09-30T21:59:22 IST" name="verifySearchResultForPoloMen" finished-at="2024-09-30T21:59:22 IST" duration-ms="4" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:14 IST" name="teardown" finished-at="2024-10-01T01:10:14 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:14 IST" name="setUP" finished-at="2024-10-01T01:10:15 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifySearchResultForPoloMen()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:15 IST" name="verifySearchResultForPoloMen" finished-at="2024-10-01T01:10:19 IST" duration-ms="4326" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null]]>
+              <![CDATA[Product title doesn't contain polo:  expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
-at com.iris22a.keywords.UIkeyword.launchUrl(UIkeyword.java:45)
-at com.iris22a.ProductTest.verifySearchResultForPoloMen(ProductTest.java:25)
+              <![CDATA[java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.iris22a.ProductTest.verifySearchResultForPoloMen(ProductTest.java:34)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -697,10 +879,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchResultForPoloMen -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.iris22a.ProductTest@36916eb0]" started-at="2024-10-01T01:10:19 IST" name="teardown" finished-at="2024-10-01T01:10:20 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.iris22a.ProductTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
