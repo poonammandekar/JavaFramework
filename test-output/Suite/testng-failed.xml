@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="4" parallel="tests" name="demo(failed)">
+    <classes>
+      <class name="com.iris22a.ProductTest">
+        <methods>
+          <include name="verifyItemCountOfCasualShirts"/>
+          <include name="setUP"/>
+          <include name="teardown"/>
+          <include name="verifySearchResultForPoloMen"/>
+        </methods>
+      </class> <!-- com.iris22a.ProductTest -->
+    </classes>
+  </test> <!-- demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

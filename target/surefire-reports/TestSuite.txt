@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 71.501 s <<< FAILURE! - in TestSuite
+verifyCategoryListForTopWears(com.iris22a.ProductTest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at com.iris22a.ProductTest.verifyCategoryListForTopWears(ProductTest.java:50)
+
+verifyItemCountOfCasualShirts(com.iris22a.ProductTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at com.iris22a.ProductTest.verifyItemCountOfCasualShirts(ProductTest.java:66)
+
+verifySearchResultForPoloMen(com.iris22a.ProductTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.get(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at com.iris22a.ProductTest.verifySearchResultForPoloMen(ProductTest.java:25)
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 11.917 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 3.066 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 0.267 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 6.834 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 0.184 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 10.674 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+
+runScenario(com.runner.RunnerTest)  Time elapsed: 29.212 s  <<< FAILURE!
+java.lang.AssertionError: Product title doesn't contain polo:  expected [true] but found [false]
+

@@ -1,0 +1,521 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/10/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 26 01:10:11 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>49 seconds (49614 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e53119ed29d3c18d8d942853a464519, sendKeysToElement {id=f.9A5BE09685933B381F9074FC2F144A52.d.9F7E33309D40D057E7092993417A681D.e.6, value=[Ljava.lang.CharSequence;@1f57457a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52652/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6e53119ed29d3c18d8d942853a464519)] -&gt; css selector: div.desktop-query&gt;input.desktop-searchBar]
+Session ID: 6e53119ed29d3c18d8d942853a464519
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
+	at com.iris22a.keywords.UIkeyword.enterText(UIkeyword.java:184)
+	at com.iris22a.pages.HomePage.searchProduct(HomePage.java:67)
+	at com.iris22a.stepdefinition.ProductsSteps.searchforPoloTshirt(ProductsSteps.java:34)
+	at ✽.User search for polo t shirt.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:29)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1453042826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1453042826'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e53119ed29d3c18d8d942853a464519, sendKeysToElement {id=f.9A5BE09685933B381F9074FC2F144A52.d.9F7E33309D40D057E7092993417A681D.e.6, value=[Ljava.lang.CharSequence;@1f57457a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52652/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6e53119ed29d3c18d8d942853a464519)] -&gt; css selector: div.desktop-query&gt;input.desktop-searchBar]
+Session ID: 6e53119ed29d3c18d8d942853a464519
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
+	at com.iris22a.keywords.UIkeyword.enterText(UIkeyword.java:184)
+	at com.iris22a.pages.HomePage.searchProduct(HomePage.java:67)
+	at com.iris22a.stepdefinition.ProductsSteps.searchforPoloTshirt(ProductsSteps.java:34)
+	at ✽.User search for polo t shirt.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:29)
+</pre></div></td>
+<td>16</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:18)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2065268395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2065268395'><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:18)
+</pre></div></td>
+<td>28</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:30)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2059107113", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2059107113'><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:30)
+</pre></div></td>
+<td>28</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46b8f6e52ac5326babf6171ccf6e1f7a, actions {actions=[org.openqa.selenium.interactions.Sequence@697ab617]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52599}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52599/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46b8f6e52ac5326babf6171ccf6e1f7a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at com.iris22a.keywords.UIkeyword.mouseMove(UIkeyword.java:176)
+	at com.iris22a.pages.HomePage.hoverOnMenMenu(HomePage.java:53)
+	at com.iris22a.stepdefinition.ProductsSteps.hoverOnMenMenu(ProductsSteps.java:55)
+	at ✽.User hovers on men menu(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace646054742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace646054742'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46b8f6e52ac5326babf6171ccf6e1f7a, actions {actions=[org.openqa.selenium.interactions.Sequence@697ab617]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52599}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52599/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46b8f6e52ac5326babf6171ccf6e1f7a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:631)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:578)
+	at com.iris22a.keywords.UIkeyword.mouseMove(UIkeyword.java:176)
+	at com.iris22a.pages.HomePage.hoverOnMenMenu(HomePage.java:53)
+	at com.iris22a.stepdefinition.ProductsSteps.hoverOnMenMenu(ProductsSteps.java:55)
+	at ✽.User hovers on men menu(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:22)
+</pre></div></td>
+<td>13</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace299812454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace299812454'><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:7)
+</pre></div></td>
+<td>19</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97899ca1251383cc905e0295f14abedf, sendKeysToElement {id=f.6774A59D37E2CBE02EC8E1A6F4AFD58C.d.9115ADB52098D012A25FE0B9F13F5D94.e.17, value=[Ljava.lang.CharSequence;@88bb09c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51865/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97899ca1251383cc905e0295f14abedf)] -&gt; css selector: div.desktop-query&gt;input.desktop-searchBar]
+Session ID: 97899ca1251383cc905e0295f14abedf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
+	at com.iris22a.keywords.UIkeyword.enterText(UIkeyword.java:184)
+	at com.iris22a.pages.HomePage.searchProduct(HomePage.java:67)
+	at com.iris22a.stepdefinition.ProductsSteps.searchforPoloTshirt(ProductsSteps.java:34)
+	at ✽.User search for polo t shirt.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1730721458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1730721458'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97899ca1251383cc905e0295f14abedf, sendKeysToElement {id=f.6774A59D37E2CBE02EC8E1A6F4AFD58C.d.9115ADB52098D012A25FE0B9F13F5D94.e.17, value=[Ljava.lang.CharSequence;@88bb09c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51865/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (97899ca1251383cc905e0295f14abedf)] -&gt; css selector: div.desktop-query&gt;input.desktop-searchBar]
+Session ID: 97899ca1251383cc905e0295f14abedf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
+	at com.iris22a.keywords.UIkeyword.enterText(UIkeyword.java:184)
+	at com.iris22a.pages.HomePage.searchProduct(HomePage.java:67)
+	at com.iris22a.stepdefinition.ProductsSteps.searchforPoloTshirt(ProductsSteps.java:34)
+	at ✽.User search for polo t shirt.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:39)
+</pre></div></td>
+<td>26</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [02bc3dc5582bb78e67da93a9199ba4e3, clickElement {id=f.252841D6C6A52B1482FAB3E920AC1407.d.C0020AA699B168C68708BE39922A9373.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52690/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (02bc3dc5582bb78e67da93a9199ba4e3)] -&gt; xpath: //a[@href=&quot;/men-tshirts&quot;]]
+Session ID: 02bc3dc5582bb78e67da93a9199ba4e3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.iris22a.keywords.UIkeyword.click(UIkeyword.java:180)
+	at com.iris22a.pages.HomePage.clickOnMenTshirt(HomePage.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.clickOnMenTshiert(ProductsSteps.java:63)
+	at ✽.user click on mens T-shirt(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:35)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1784564516", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1784564516'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=129.0.6668.70)
+Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [02bc3dc5582bb78e67da93a9199ba4e3, clickElement {id=f.252841D6C6A52B1482FAB3E920AC1407.d.C0020AA699B168C68708BE39922A9373.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\poonam\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52690}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52690/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (02bc3dc5582bb78e67da93a9199ba4e3)] -&gt; xpath: //a[@href=&quot;/men-tshirts&quot;]]
+Session ID: 02bc3dc5582bb78e67da93a9199ba4e3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.iris22a.keywords.UIkeyword.click(UIkeyword.java:180)
+	at com.iris22a.pages.HomePage.clickOnMenTshirt(HomePage.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.clickOnMenTshiert(ProductsSteps.java:63)
+	at ✽.user click on mens T-shirt(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:35)
+</pre></div></td>
+<td>14</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:18)
+</pre></div><a href='#' onClick='toggleBox("stack-trace409963268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace409963268'><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:18)
+</pre></div></td>
+<td>19</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:40)
+</pre></div><a href='#' onClick='toggleBox("stack-trace239455753", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace239455753'><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/products.feature:40)
+</pre></div></td>
+<td>11</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify search result for polo men.", "This file contains the test cases of products."</td>
+<td><div><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1919505572", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1919505572'><pre>java.lang.AssertionError: Product title doesn&apos;t contain polo: Self Design T-shirt expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.iris22a.stepdefinition.ProductsSteps.getSearchResult(ProductsSteps.java:46)
+	at ✽.All result should be related to polo.(file:///C:/Users/poonam/eclipse-workspace/iris22a/src/test/resources/Features/Sample.feature:7)
+</pre></div></td>
+<td>30</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised numeric", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>24</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised string value", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>11</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td></td>
+<td>19</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td></td>
+<td>28</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised string value", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>2</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised string value", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>3</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td></td>
+<td>28</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised string value", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>7</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised string value", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>4</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised string value", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>8</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td></td>
+<td>9</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td></td>
+<td>47</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if search by popularity yeilds proper result", "This file contains the test cases of products."</td>
+<td></td>
+<td>48</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+<tr>
+<td title='com.runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "How to parameterised floating value", "This feature describes the difference between two numbers"</td>
+<td></td>
+<td>17</td>
+<td>com.runner.RunnerTest@17f7cd29</td></tr>
+</table><p>
+</body>
+</html>

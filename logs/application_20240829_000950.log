@@ -1,0 +1,4 @@
+2024-08-29 00:09:50 INFO  TestBase:42 - Open browserChrome
+2024-08-29 00:09:57 INFO  TestBase:59 - Browser close successfully
+2024-08-29 00:09:57 INFO  TestBase:42 - Open browserChrome
+2024-08-29 00:10:01 INFO  TestBase:59 - Browser close successfully

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">demo</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">50,452</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">demo &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.iris22a.ProductTest</td><td><a href="#m0">verifyItemCountOfCasualShirts</a></td><td rowspan="1">1727713500809</td><td rowspan="1">11067</td></tr><tr class="failedeven"><td><a href="#m1">verifySearchResultForPoloMen</a></td><td rowspan="1">1727713513174</td><td rowspan="1">7273</td></tr><tr><th colspan="4">demo &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.iris22a.MensTshirt</td><td><a href="#m2">verifyIfSearchByPopularityYeildsProperResults</a></td><td rowspan="1">1727713472954</td><td rowspan="1">5516</td></tr><tr class="passedodd"><td rowspan="11">com.iris22a.ProductTest</td><td><a href="#m3">m10</a></td><td rowspan="1">1727713479895</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m4">m11</a></td><td rowspan="1">1727713481102</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m5">m12</a></td><td rowspan="1">1727713482401</td><td rowspan="1">8</td></tr><tr class="passedodd"><td><a href="#m6">m3</a></td><td rowspan="1">1727713483465</td><td rowspan="1">10</td></tr><tr class="passedodd"><td><a href="#m7">m4</a></td><td rowspan="1">1727713484535</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m8">m5</a></td><td rowspan="1">1727713485595</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m9">m6</a></td><td rowspan="1">1727713486503</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m10">m7</a></td><td rowspan="1">1727713487493</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m11">m8</a></td><td rowspan="1">1727713488581</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m12">m9</a></td><td rowspan="1">1727713489667</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m13">verifyCategoryListForTopWears</a></td><td rowspan="1">1727713490765</td><td rowspan="1">8678</td></tr></tbody>
+</table>
+<h2>demo</h2><h3 id="m0">com.iris22a.ProductTest#verifyItemCountOfCasualShirts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: No match found
+	at java.base/java.util.regex.Matcher.checkMatch(Matcher.java:1850)
+	at java.base/java.util.regex.Matcher.group(Matcher.java:685)
+	at java.base/java.util.regex.Matcher.group(Matcher.java:643)
+	at com.iris22a.pages.CasualShirtsPage.getItemCount(CasualShirtsPage.java:18)
+	at com.iris22a.ProductTest.verifyItemCountOfCasualShirts(ProductTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 15 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.iris22a.ProductTest#verifySearchResultForPoloMen</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Product title doesn&apos;t contain polo: Striped Regular Fit T-shirt expected [true] but found [false]
+	at com.iris22a.ProductTest.verifySearchResultForPoloMen(ProductTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.iris22a.MensTshirt#verifyIfSearchByPopularityYeildsProperResults</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.iris22a.ProductTest#m10</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.iris22a.ProductTest#m11</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.iris22a.ProductTest#m12</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.iris22a.ProductTest#m3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.iris22a.ProductTest#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.iris22a.ProductTest#m5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.iris22a.ProductTest#m6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.iris22a.ProductTest#m7</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.iris22a.ProductTest#m8</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.iris22a.ProductTest#m9</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.iris22a.ProductTest#verifyCategoryListForTopWears</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
