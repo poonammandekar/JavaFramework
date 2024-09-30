@@ -12,8 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import com.iris22a.keywords.UIkeyword;
 import com.iris22a.util.Environment;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+
 import io.cucumber.java.BeforeAll;
 
 public class TestNGBase {
