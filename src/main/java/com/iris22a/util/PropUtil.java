@@ -27,12 +27,7 @@ public class PropUtil {
 		return loctypevalue;
 	}
 	
-	/**
-	 * This method can be used on OR.properties file only
-	 * @param key for which we want the locator
-	 * @return The locator value in the form of {@code String}
-	 */
-	public String[] getLocator(String key) {
+		public String[] getLocator(String key) {
 		
 		String baseDir=System.getProperty("user.dir");
 		String path=baseDir+"\\src\\main\\resources\\OR.properties";
@@ -40,4 +35,5 @@ public class PropUtil {
 		String typevalue=getValue(baseDir+"\\src\\main\\resources\\OR.properties",key);
 		return typevalue.split("##");
 	}
+	
 }

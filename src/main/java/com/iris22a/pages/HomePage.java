@@ -39,6 +39,7 @@ public class HomePage {
 		
 	}*/
 	
+	/*initElements(): initElements is a static method in Page Factory class. Using the initElements method, one can initialize all the web elements located by @FindBy annotation.*/
 	@FindBy(css="div.desktop-query>input.desktop-searchBar")
 	public WebElement searchComponent; 
 	
