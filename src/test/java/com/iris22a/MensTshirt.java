@@ -11,7 +11,7 @@ import com.iris22a.util.Environment;
 import com.iris22a.util.WaitFor;
 
 
-public class MensTshirt extends TestNGBase {
+public class MensTshirt {
 		// TODO Auto-generated method stub
 	UIkeyword ui=new UIkeyword();
 	WaitFor wait=new WaitFor();	

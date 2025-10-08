@@ -5,6 +5,8 @@ public class Environment {
 	private static String filePath="/src/main/resources/Environment.properties";
 	public static String URL;
 	public static String BROWSER;
+	public static String USERNAME;
+	public static String PASSWORD;
 	
 static{
 	PropUtil prop=new PropUtil();
@@ -12,5 +14,6 @@ static{
 	
 	URL=prop.getValue(baseDir+	filePath,"app_url");
 	BROWSER=prop.getValue(baseDir+filePath, "browser_name");
+	USERNAME=prop.getValue(baseDir+filePath, "username");
 }
 }

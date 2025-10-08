@@ -16,7 +16,7 @@ import com.iris22a.util.PropUtil;
 import com.iris22a.util.WaitFor;
 
 
-public class ProductTest extends TestNGBase {
+public class ProductTest {
 	UIkeyword ui=new UIkeyword();
 	WaitFor wait=new WaitFor();	
 	@Test

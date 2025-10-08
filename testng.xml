@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <suite name="Suite" parallel="tests" thread-count="2">
-  <test name="demo">
+  <test name="Chrome"> 
+<parameter name="browser" value="Chrome" /> 
+    <classes>
+      <class name="com.iris22a.MensTshirt"/>
+      <class name="com.iris22a.ProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FireFox"> 
+<parameter name="browser" value="FireFox" /> 
+    <classes>
+      <class name="com.iris22a.MensTshirt"/>
+      <class name="com.iris22a.ProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Edge"> 
+<parameter name="browser" value="Edge" /> 
     <classes>
       <class name="com.iris22a.MensTshirt"/>
       <class name="com.iris22a.ProductTest"/>
